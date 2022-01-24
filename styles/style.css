@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(50%);
+    border-radius: 0px 0px 5px 5px;
+}
+.hot-deal{
+    background-color:  #3F87F5 !important;
+    background-image: url(../media/icons/watermark.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    color: white;
+    border-radius: 26px !important;
+}
+.hot-deal p{
+    color: white !important;
+}
